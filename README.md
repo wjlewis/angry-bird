@@ -6,3 +6,5 @@ To run it locally, execute
 ```
 npm start
 ```
+
+![A small demonstration](./docs/demo.gif)
