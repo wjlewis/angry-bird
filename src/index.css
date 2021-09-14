@@ -1,13 +1,53 @@
-body {
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 10% auto 20%;
+  grid-template-columns: 10% auto 10%;
+}
+
+svg.canvas {
+  width: 100%;
+  height: 100%;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  border-bottom: 2px solid #beb7b1;
+}
+
+nav#controls {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bird {
+  fill: #3f77e8;
+}
+
+.bird.interactive {
+  cursor: move;
+}
+
+.trajectory {
+  stroke-width: 2;
+  stroke: #e8933f;
+  fill: none;
+}
+
+.sling-shot {
+  stroke-width: 2;
+  stroke: #beb7b1;
 }

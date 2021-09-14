@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { StateContext, reducer, initState } from './state';
+import { animate } from './middleware';
+import { useReducer } from './hooks';
+import Canvas from './Canvas';
+import Controls from './Controls';
 
-function App() {
+const App: React.VFC = () => {
+  const [state, dispatch] = useReducer(reducer, initState, animate());
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StateContext.Provider value={{ state, dispatch }}>
+      <main>
+        <Canvas />
+        <Controls />
+      </main>
+    </StateContext.Provider>
   );
-}
+};
 
 export default App;
