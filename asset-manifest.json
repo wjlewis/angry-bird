@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/angry-birds/static/css/main.d9f3437b.chunk.css",
-    "main.js": "/angry-birds/static/js/main.9e7c42d7.chunk.js",
-    "main.js.map": "/angry-birds/static/js/main.9e7c42d7.chunk.js.map",
-    "runtime-main.js": "/angry-birds/static/js/runtime-main.16102486.js",
-    "runtime-main.js.map": "/angry-birds/static/js/runtime-main.16102486.js.map",
-    "static/js/2.e333cb2d.chunk.js": "/angry-birds/static/js/2.e333cb2d.chunk.js",
-    "static/js/2.e333cb2d.chunk.js.map": "/angry-birds/static/js/2.e333cb2d.chunk.js.map",
-    "index.html": "/angry-birds/index.html",
-    "static/css/main.d9f3437b.chunk.css.map": "/angry-birds/static/css/main.d9f3437b.chunk.css.map",
-    "static/js/2.e333cb2d.chunk.js.LICENSE.txt": "/angry-birds/static/js/2.e333cb2d.chunk.js.LICENSE.txt"
+    "main.css": "/angry-bird/static/css/main.d9f3437b.chunk.css",
+    "main.js": "/angry-bird/static/js/main.9e7c42d7.chunk.js",
+    "main.js.map": "/angry-bird/static/js/main.9e7c42d7.chunk.js.map",
+    "runtime-main.js": "/angry-bird/static/js/runtime-main.ee35a7da.js",
+    "runtime-main.js.map": "/angry-bird/static/js/runtime-main.ee35a7da.js.map",
+    "static/js/2.e333cb2d.chunk.js": "/angry-bird/static/js/2.e333cb2d.chunk.js",
+    "static/js/2.e333cb2d.chunk.js.map": "/angry-bird/static/js/2.e333cb2d.chunk.js.map",
+    "index.html": "/angry-bird/index.html",
+    "static/css/main.d9f3437b.chunk.css.map": "/angry-bird/static/css/main.d9f3437b.chunk.css.map",
+    "static/js/2.e333cb2d.chunk.js.LICENSE.txt": "/angry-bird/static/js/2.e333cb2d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.16102486.js",
+    "static/js/runtime-main.ee35a7da.js",
     "static/js/2.e333cb2d.chunk.js",
     "static/css/main.d9f3437b.chunk.css",
     "static/js/main.9e7c42d7.chunk.js"
