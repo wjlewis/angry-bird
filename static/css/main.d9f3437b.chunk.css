@@ -1,0 +1,2 @@
+#root,body,html{margin:0;overflow:auto}#root,body,html,main{width:100%;height:100%}main{display:grid;grid-template-rows:10% auto 20%;grid-template-columns:10% auto 10%}svg.canvas{grid-row:2/3;border-bottom:2px solid #beb7b1}nav#controls,svg.canvas{width:100%;height:100%;grid-column:2/3}nav#controls{grid-row:3/4;display:flex;justify-content:center;align-items:center}.bird{fill:#3f77e8}.bird.interactive{cursor:move}.trajectory{stroke-width:2;stroke:#e8933f;fill:none}.sling-shot{stroke-width:2;stroke:#beb7b1}
+/*# sourceMappingURL=main.d9f3437b.chunk.css.map */
